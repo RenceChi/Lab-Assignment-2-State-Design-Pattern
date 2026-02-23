@@ -1,6 +1,6 @@
 <h1>Lab Assignment State Pattern</h1>
 <h4>Problem:</br>
-A vending machine needs to manage different states, including "Idle", "ItemSelected", "Dispensing", and "OutOfOrder". Each state has specific rules and restrictions regarding allowed operations, and the vending machine has associated attributes like item inventory and balance.</br>
+A vending machine needs to manage different states, including "Idle", "ItemSelected", "Dispensing", and "OutOfOrder". Each state has specific rules and restrictions regarding allowed operations, and the vending machine has associated attributes like item inventory and balance.</h4></br>
 Requirements:</br>
 Idle State:</br>
 -Allow item selection.</br>
@@ -12,7 +12,7 @@ Dispensing State:</br>
 -Allow no operations.</br>
 -Automatically transition back to the "Idle" state after dispensing is complete.</br>
 OutOfOrder State:</br>
--Disallow all operations.  </h4></br>
+-Disallow all operations. </br>
 
 Current System: The system currently relies on conditional statements within the VendingMachine class to check the machine state and determine valid actions. This approach becomes cumbersome and error-prone as the number of states and their associated logic grows.
 Implement the State Pattern to improve code maintainability and flexibility:
