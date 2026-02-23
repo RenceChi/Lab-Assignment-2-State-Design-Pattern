@@ -31,3 +31,4 @@ Implement the State Pattern to improve code maintainability and flexibility:
 
 
 <h1> UML DIAGRAM </h1>
+<img width="2807" height="2726" alt="Blank diagram (7)" src="https://github.com/user-attachments/assets/38cfe27b-0732-42aa-bbc8-2391a0fb8f06" />
